@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+dt {
+  display: inline-block;
+  width: 45%;
+}
+
+dd {
+  display: inline-block;
+  width: 45%;
+}
