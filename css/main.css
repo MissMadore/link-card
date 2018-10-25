@@ -1,9 +1,43 @@
 html {
   box-sizing: border-box;
+  font-family: Georgia;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+.link-card {
+  background-color: #f0eee8;
+  display: block;
+  color: #512200;
+  padding: .4em .75em .5em;
+  border: 2px solid #9a816d;
+  border-radius: 3px;
+}
+
+h2 {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  padding: 0;
+}
+
+p {
+  font-size: 1rem;
+  padding: 1rem;
+  margin: 0;
+  border-bottom: 2px #9a816d solid;
+}
+
+dl {
+  font-size: .875rem;
+  padding: 1rem;
+  margin: 0 0 1rem;
+  border-bottom: 2px #9a816d solid;
 }
 
 dt {
@@ -14,4 +48,23 @@ dt {
 dd {
   display: inline-block;
   width: 45%;
+  margin: 0;
+  font-style: italic;
+}
+
+.btn {
+  font-family: "Dosis", sans-serif;
+  font-weight: bold;
+  font-size: 1.125rem;
+  text-align: center;
+  color: #fff;
+  padding: .4em .75em .5em;
+  margin: 1em;
+}
+
+.btn-wrap {
+  background-color: #785439;
+  border: 3px solid #785439;
+  border-radius: 8px;
+  text-align: center;
 }
